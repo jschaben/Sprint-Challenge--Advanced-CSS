@@ -180,11 +180,12 @@ p {
 .navBar nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 40%;
 }
 @media (max-width: 500px) {
   .navBar nav {
-    width: 80%;
+    width: 70%;
   }
 }
 .navBar nav a {
@@ -279,6 +280,7 @@ footer {
   .home .walk {
     flex-direction: column-reverse;
     padding: 5px;
+    align-items: center;
   }
 }
 .home .walk .walk-text {
@@ -313,9 +315,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
-    width: 90%;
-    display: flex;
-    justify-content: center;
+    width: 95%;
+    padding: 20px;
   }
 }
 .home .walk .walk-img {
