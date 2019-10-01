@@ -181,8 +181,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
-  border: 1px solid black;
+  width: 50%;
 }
 @media (max-width: 500px) {
   .navBar nav {
