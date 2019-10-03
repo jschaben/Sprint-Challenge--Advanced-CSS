@@ -1,1 +1,29 @@
 // Mixins Here
+
+.btn-style(@color, @color2){
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 10px 0px;
+    border-radius: 8%;
+    text-decoration: none;
+    color: @color2; 
+    background-color: @color;
+    font-size: 20px;
+
+    &:hover{
+        background-color: @color2;
+        color: @color;
+        cursor: pointer;
+    }
+    
+}
+
+.flex (@justify, @align, @flex-direction) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-direction: @flex-direction;
+    
+
+}
